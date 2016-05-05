@@ -7,7 +7,7 @@ var myName = "sheena";
  * as well as an `age` (number);
  */
 
- var person = {name: "sheena", age: 30};
+ var person = {name: myName, age: 30};
 
 /* Create a variable called `canDrive`,
  * if it should be true if your person object is at least 16 years old
@@ -24,7 +24,7 @@ if (person.age >= 16){
  function greet(name){
  	console.log("Hello, my name is " + name);
  }
- greet("sheena");
+ greet(person.name);
 
 /* Create an array called `dataTypes` with atleast 1 of every data type;
  * (there are 6 different data types);
